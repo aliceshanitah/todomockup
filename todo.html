@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.4.1-dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="todo.css">
+</head>
+
+<body>
+    <div class="card">
+        <div class="row">
+            <div class="col">
+                <h3 class="card-title">To do:</h3>
+                <div id="target">
+                    <ul class="todo-wrapper"></ul>
+                    <div class="add-todo-wrapper">
+                        <label for="todoitem" class="col-md-2"> Task</label><input class="new-todo-input" placeholder="what do you need to do?" id="new-todo"
+                            type="text" />
+                        <div class="text-right">
+                            <button class="btn btn-primary add-todo-btn" onclick="addTodo(event)">
+                                Save item
+                            </button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./todo.js"></script>
+</body>
+
+</html>

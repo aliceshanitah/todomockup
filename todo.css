@@ -1,0 +1,68 @@
+    
+.card{
+    margin:auto;
+    background-color: rgb(227, 230, 229); 
+    width: 60%;
+    margin-top: 60px;
+}
+h3{
+    margin-left:12px;
+}
+
+        .todo-wrapper,
+        .add-todo-wrapper {
+            width:90%;
+            margin-left:10px;
+            margin-right: 10px;
+            margin-top: 10px;
+            padding: 10px;
+            
+        }
+
+        .add-todo-wrapper {
+            margin-top: 10px
+        }
+
+        .todo-item {
+            width: 100%;
+            min-height: 30px;
+            height: auto;
+            background-color: #fff;
+            border: solid 1px #eee;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .todo {
+            width: 70%;
+            
+        }
+
+        
+        .delete {
+            background-color: red;
+            padding: 5px;
+            color: #fff;
+            border: none;
+        }
+
+        .complete {
+            background-color: rgb(53, 53, 143);
+            color: #fff;
+            border: none;
+            outline: none;
+            padding: 5px;
+        }
+
+        .completed {
+            text-decoration: line-through;
+        }
+
+        .new-todo-input {
+            width: 80%;
+            height: 30px;
+            padding: 4px;
+        }
+        
